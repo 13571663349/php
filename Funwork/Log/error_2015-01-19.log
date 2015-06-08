@@ -1,2 +1,0 @@
-Get a error with message: PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: send of 5 bytes failed with errno=10053 您的主机中的软件中止了一个已建立的连接。
- in E:\php\Funwork\Core\Model.php at 38 line
