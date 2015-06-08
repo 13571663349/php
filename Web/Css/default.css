@@ -1,0 +1,185 @@
+*{
+	font-family: "微软雅黑", "黑体";
+}
+
+body{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFFFFF;
+	border: solid #ccc 1px;
+    font-family: "微软雅黑", "黑体";
+}
+
+header{
+	background-image: none;
+	margin: 1px 0;
+}
+
+div#logo{
+	font-family: "楷体";
+	background: #efefef;
+	height: 62px;
+	line-height: 62px;
+	font-size: 40px;
+	font-weight:900;
+	color: #0C0;
+	text-shadow: #336;
+}
+
+nav{
+	font-weight: bold;
+	background: url(/Web/Image/nav_bar.png) #C1C1C1;
+	height: 40px;
+	border: solid #ccc;
+	border-width: 1px 0 1px 0;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+nav li{
+	float: left;
+	height: 35px;
+	margin: 2px 0 3px 0;
+	border-right: 1px solid #bfbfbf;
+}
+nav ul li a, nav ul li a:visited{
+	display: block;
+	color: #069;
+	padding: 0 20px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 35px;
+}
+
+nav ul li a:hover{
+	color: #09F;
+	background: #ddd url(/Web/Image/nav_hover.png) repeat-x;
+}
+
+section{
+	overflow: hidden;
+	height: 100%;
+	padding: 0 1px;
+}
+
+section article{
+	width: 590px;
+	margin: 0 auto;
+	border: 1px #ccc solid;
+}
+
+section aside{
+	width: 200px;
+	border: 1px solid #ccc;
+}
+
+section aside.left{
+	float: left;
+}
+
+section aside.right{
+	float: right;
+}
+
+
+section figure{
+	font-size: 0.8em;
+	border: 1px #ccc solid;
+	margin: 0;
+}
+
+hr.caption {
+	padding: 0;
+	margin: 0;
+	border: dashed #c9c;
+	border-width: 0 0 2px 0;
+}
+section figcaption{
+	font-size: 1.2em;
+	font-weight: bold;
+	background: #fff;
+	border-color: #00CC99;
+	border-style: double;
+	border-width: 0 0 3px 0;
+	color: #777;
+	display: block;
+	text-indent: 1.3em;
+	padding: 6px 0;
+}
+
+section ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+section ul li {
+	padding: 0 5px 0;
+}
+
+section ul li a, section ul li a:visited{
+	display: block;
+	text-decoration: none;
+	border-left: #669 solid;
+	border-bottom: #ccc dashed;
+	border-width: 0 0 1px 0.9em;
+	padding: 0.4em 1em;
+	margin: 4px 0;
+	background: #fff;
+	text-overflow:ellipsis;
+	white-space: nowrop;
+}
+
+section ul li a:hover{
+	display: block;
+	border-color: #0d0 #0d0 #0d0 #060;
+	border-style: solid;
+	border-width: 0 0 0 0.9em;
+	color: #060;
+	padding: 0.4em 1em;
+	text-overflow:ellipsis;
+	white-space: nowrop;
+}
+
+
+section input{
+	width: 100px;
+	height: 15px;
+	border: #ccc 1px solid;
+}
+
+section button{
+	color: #fff;
+	padding: 5px 11px;
+	width: 100%;
+	background: #09F;
+	border: none;
+}
+
+section hr{
+	border: solid #ccc;
+	border-width: 0 0 0.1em 0;
+}
+
+footer {
+	clear: both;
+	margin-top: 1px;
+	border-top: 1px #ccc solid;
+	background: #efefef;
+	color: #aaa;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding: 10px;
+	clear: both;
+	text-align: center;
+}
+
+footer p {
+	margin: 0 0;
+}

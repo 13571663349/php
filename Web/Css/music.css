@@ -1,0 +1,26 @@
+#music_list {
+	border: #660 solid medium;
+	width: 550px;
+	margin: 0 auto 0;
+}
+
+#music_list td {
+	border: #ccc solid 1px;
+	margin: 0 4px;
+}
+
+#music_list tr {
+	border #ddd solid 1px
+}
+
+#music_list a{
+	text-decoration: none;
+}
+
+
+audio {
+	margin: 0 auto 0;
+	border: #ccc soild 1px;
+	width: 550px;
+	display: block;
+}
