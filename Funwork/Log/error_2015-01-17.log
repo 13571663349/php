@@ -1,0 +1,4 @@
+exception 'ErrorException' with message 'Undefined variable: a' in E:\php\index.php:19
+Stack trace:
+#0 E:\php\index.php(19): Core->errorHandler(8, 'Undefined varia...', 'E:\php\index.ph...', 19, Array)
+#1 {main}

@@ -1,0 +1,17 @@
+php_flag magic_quotes_gpc off
+php_flag magic_quotes_runtime off
+php_flag magic_quotes_sysbase off
+
+<IfModule rewrite_module>
+RewriteEngine On
+RewriteBase /
+
+#Rewrite website page path.
+RewriteRule ^([a-zA-Z_]+)\.html(\?.*)? ?pid=$1&$2
+RewriteRule ^([a-zA-Z_]+)-([a-zA-Z_]+)\.html(\?.*)? ?pid=$1&do=$2&$3
+
+#Rewrite web resources path.
+RewriteRule ^([^/]+\.js) Web/Js/$1
+RewriteRule ^([^/]+\.css) Web/Css/$1 [L]
+RewriteRule ^([^/]+\.(?:jpe?g|gif|png|ico|bmp)) Web/Image/$1 [L]
+</IfModule>
